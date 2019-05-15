@@ -59,7 +59,7 @@ public class CarroDao {
             }     
     }
     
-    public String exclrir(CarroBean carro){
+    public String excluir(CarroBean carro){
         String sql = "delete from carro where placa = ?";
             
             try{
